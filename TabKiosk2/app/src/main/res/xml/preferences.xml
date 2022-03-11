@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Network Information" android:summary="Network">
+        <EditTextPreference android:title="IP Address" android:key="ipaddress" android:summary="Please enter the IP address" android:defaultValue="@string/ipAddress_default" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Branch information" android:summary="Branch">
+        <EditTextPreference android:title="Branch Code" android:key="branchid" android:summary="Please enter the Branch Code" android:defaultValue="@string/branchCode_default" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Device information" android:summary="Device">
+        <EditTextPreference android:title="Device Id" android:key="deviceid" android:summary="Please enter the Device Id" android:defaultValue="@string/deviceId_default" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Exit Application">
+        <Preference android:title="EXIT APPLICATION" android:key="exitlink" />
+    </PreferenceCategory>
+</PreferenceScreen>

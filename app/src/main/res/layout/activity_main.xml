@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/group1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_gravity="center_horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewexcellent"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentBottom="true"
+                android:lines="2"
+                android:fontFamily="@font/meera_regular"
+                android:scrollHorizontally="false"
+                android:text="@string/excellent"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="@android:color/white"
+                android:textColorLink="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+            <ImageView
+                android:id="@+id/im_excellent"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textViewexcellent"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="4dp"
+                android:src="@drawable/excellent"
+                android:adjustViewBounds="true"
+                />
+
+          <!--  <ImageView
+                android:id="@+id/im_excellent"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textViewexcellent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/excellent"
+                android:adjustViewBounds="true"
+                />-->
+
+        </RelativeLayout>
+ <!-- <ImageView
+    android:id="@+id/im_excellent"
+    android:layout_width="230dp"
+    android:layout_height="150dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginLeft="60dp"
+      android:layout_weight="1"
+    android:src="@drawable/excellent"
+    />-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViegood"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentBottom="true"
+                android:lines="2"
+                android:scrollHorizontally="false"
+                android:text="@string/good"
+                android:fontFamily="@font/meera_regular"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="@android:color/white"
+                android:textColorLink="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:id="@+id/im_happy"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textViegood"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="4dp"
+                android:src="@drawable/good"
+                android:adjustViewBounds="true"
+                />
+
+        </RelativeLayout>
+      <!--  <ImageView
+            android:id="@+id/im_happy"
+            android:layout_width="230dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/good" />-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViejstk"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentBottom="true"
+                android:lines="2"
+                android:fontFamily="@font/meera_regular"
+                android:scrollHorizontally="false"
+                android:text="@string/justok"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="@android:color/white"
+                android:textColorLink="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:id="@+id/im_jstok"
+                android:layout_width="230dp"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/textViejstk"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="4dp"
+                android:src="@drawable/jstok"
+                android:adjustViewBounds="true"
+                />
+
+        </RelativeLayout>
+        <ImageView
+        android:id="@+id/im_jstok1"
+            android:layout_width="230dp"
+            android:layout_height="150dp"
+            android:visibility="invisible"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/jstok"
+            android:layout_weight="1"
+            />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/group2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_gravity="center_horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewexcellent1"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentBottom="true"
+                android:lines="2"
+                android:fontFamily="@font/meera_regular"
+                android:scrollHorizontally="false"
+                android:text="@string/excellent"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="@android:color/white"
+                android:textColorLink="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:id="@+id/im_excellent1"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textViewexcellent1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/excellent"
+                android:adjustViewBounds="true"
+                />
+
+        </RelativeLayout>
+        <!-- <ImageView
+           android:id="@+id/im_excellent"
+           android:layout_width="230dp"
+           android:layout_height="150dp"
+             android:layout_marginRight="20dp"
+             android:layout_marginLeft="60dp"
+             android:layout_weight="1"
+           android:src="@drawable/excellent"
+           />-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViecomplaint"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentBottom="true"
+                android:lines="2"
+                android:scrollHorizontally="false"
+                android:text="@string/havecomplaint"
+                android:fontFamily="@font/meera_regular"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="@android:color/white"
+                android:textColorLink="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:id="@+id/im_complaint"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textViecomplaint"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="4dp"
+                android:src="@drawable/complaint"
+                android:adjustViewBounds="true"
+                />
+
+        </RelativeLayout>
+        <!--  <ImageView
+              android:id="@+id/im_happy"
+              android:layout_width="230dp"
+              android:layout_height="150dp"
+              android:layout_marginRight="20dp"
+              android:layout_weight="1"
+              android:src="@drawable/good" />-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViejstk22"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentBottom="true"
+                android:lines="2"
+                android:fontFamily="@font/meera_regular"
+                android:scrollHorizontally="false"
+                android:text="@string/justok"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="@android:color/white"
+                android:textColorLink="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:id="@+id/im_jstok22"
+                android:layout_width="230dp"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/textViejstk22"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="4dp"
+                android:src="@drawable/jstok"
+                android:adjustViewBounds="true"
+                />
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/im_jstok21"
+            android:layout_width="230dp"
+            android:layout_height="150dp"
+            android:visibility="invisible"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/jstok"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+</LinearLayout>

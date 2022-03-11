@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tab Kiosk</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="reason">കാരണം</string>
+    <string name="mobile">മൊബൈൽ നമ്പർ രേഖപ്പെടുത്തുക</string>
+    <string name="submit">സമർപ്പണം</string>
+    <string name="thanks">ഈ സേവനം ഉപയോഗിച്ചതിന് നന്ദി</string>
+    <string name="complaint">നിങ്ങളുടെ പരാതി രേഖപെടുത്തുന്നു</string>
+    <string name="notsatisfied">ജീവനക്കാരുടെ സേവനം തൃപ്തികരമല്ല </string>
+    <string name="speed">സേവനകൾക്കു വേഗത പോരാ</string>
+    <string name="improve">സൗകര്യങ്ങൾ മെച്ചപ്പെടുത്തണം</string>
+    <string name="others">മറ്റുള്ളവ</string>
+    <string name="excellent">സന്തോഷവാനും സംതൃപ്തനുമാണ്</string>
+    <string name="good">സംതൃപ്തനാണ്</string>
+    <string name="justok">തരക്കേടില്ല</string>
+    <string name="havecomplaint">എനിക്ക് പരാതികളുണ്ട്</string>
+    <string name="option">ദയവായി ഒരു ഓപ്ഷൻ സെലക്ട് ചെയുക </string>
+    <string name="mobno">ദയവായി മൊബൈൽ നമ്പർ രേഖപ്പെടുത്തുക  </string>
+    <string name="invalid">മൊബൈൽ നമ്പർ അസാധുവാണ് </string>
+
+</resources>

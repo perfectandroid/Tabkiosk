@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/tab_bg_home"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+ <Button
+        android:textSize="@dimen/abc_button_padding_horizontal_material"
+        android:id="@+id/btnDisappointed"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="220.0dip"
+        android:layout_marginTop="540.0dip"
+        android:layout_marginRight="220.0dip"
+        android:layout_marginBottom="250.0dip"
+        android:text="4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnDisappointed_activity"
+        android:alpha="0.0" />-->
+    <Button android:id="@+id/btnJustOk" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="350.0dip" android:layout_marginTop="360.0dip" android:layout_marginRight="80.0dip" android:layout_marginBottom="420.0dip" android:text="3" android:layout_toRightOf="@id/btnJustHappy" android:layout_alignTop="@id/btnJustHappy" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="btnJustOk_activity" android:alpha="0.0" android:layout_toEndOf="@id/btnJustHappy" />
+    <Button android:id="@+id/btnSoHappy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="80.0dip" android:layout_marginTop="360.0dip" android:layout_marginRight="350.0dip" android:layout_marginBottom="420.0dip" android:text="1" android:layout_toLeftOf="@id/btnJustHappy" android:layout_alignTop="@id/btnJustHappy" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="btnSoHappy_activity" android:alpha="0.0" android:layout_toStartOf="@id/btnJustHappy" />
+    <Button android:id="@+id/btnJustHappy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="220.0dip" android:layout_marginTop="360.0dip" android:layout_marginRight="220.0dip" android:layout_marginBottom="420.0dip" android:text="2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:onClick="btnJustHappy_activity" android:alpha="0.0" android:allowUndo="false" />
+</RelativeLayout>
